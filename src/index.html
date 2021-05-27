@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/55daa33420.js" crossorigin="anonymous"></script>
+  <title>TODO LIST</title>
+</head>
+<body>
+  <header>
+    <h1>Sandrine todo list</h1>
+  </header>
+  <form action="">
+    <input type="text" class="todo-input">
+    <button class="todo-submit"><i class="fas fa-plus-square"></i></button>
+    <div class="select">
+      <select name="todos" class="filter-todo" id="f-todo">
+        <option value="all">All</option>
+        <option value="completed">Complet</option>
+        <option value="uncompleted">Incomplet</option>
+      </select>
+    </div>
+  </form>
+  <div class="todo-container">
+    <ul class="todo-list">
+    </ul>
+  </div>
+</body>
+</html>
